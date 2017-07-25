@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+
+* {
+    /*font-family: 'Lato', sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background : #2B3238;
+    float: left;
+    flex: 1;
+}
+
+.container {
+  background : #2B3238;
+  display: center;
+  margin: 45px 480px;
+}
+
+form h1 {
+    display: center;
+    text-align : center;
+    /*font-family: 'Lato', sans-serif;*/
+    color : white;
+    margin: 80px 0px;
+    height: 20px;
+    line-height: 1.6;
+    border: none;
+    font-size: 250%;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 5px;
+    display: inline-block;
+    border: 0;
+    box-sizing: border-box; 
+    flex: 1;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 5px 8px 5px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+p {
+  color: white;
+  text-align: center;
+}
+
+a span {
+    text-decoration:none;
+    display: inline-block;
+    color: green;
+    font-size: 120%;
+}
