@@ -14,9 +14,13 @@ body {
     /*background-image: url("natural.jpg");*/
 }
 
-.abc {
-	/*background-image: url("natural.jpg");
-*/	padding: 100px;
+h2 {
+    /*margin-bottom: 5px;*/
+    text-align : center;
+    color : white;
+    
+    font-size: 250%;
+    padding: 40px;
 	/*margin: 150px 480px;*/
 	/*height: 20px;*/
     /*line-height: 1.6;*/
@@ -25,20 +29,21 @@ body {
     border-radius: 6px;
 }
 
-h1 {
-    /*margin-bottom: 5px;*/
-    text-align : center;
-    color : white;
-    
-    font-size: 250%;
+th {
+	color: white;
 }
 
-.button {
-	text-align: center;
-	background : #2B3238;
+td {
+	color: white;
+}
+
+a {
+	color: #4CAF50;
 }
 
 button {
+	text-align: center;
+	background : #2B3238;
 	background-color: #4CAF50;
 	border: none;
     color: white;
@@ -54,17 +59,3 @@ button {
     /*height: 40px;*/
 	display: inline-block;
 }
-
-
-
-/*#bt1 {
-    background-color: #4CAF50;
-    /*position: center;*/
-    /*color: white;*/
-    /*padding: 12px 20px;*/
-    /*margin: 8px 5px 8px 5px;*/
-    /*cursor: pointer;*/
-    /*width: 100%;*/
-    /*border-radius: 10px;
-
-}*/

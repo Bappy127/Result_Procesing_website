@@ -62,6 +62,7 @@ if(isset($_POST['form_faculty_insert']))
 <head>
 	<meta charset="UTF-8">
 	<title>Insert Page</title>
+	<link rel="stylesheet" type="text/css" href="css/style_inser_faculty.css">
 </head>
 <body>
 
@@ -70,14 +71,15 @@ if(isset($_POST['form_faculty_insert']))
 <center>
 <form action="" method="post">
 <table>
-	<tr>
+	<tr id="abc">
 		<td>Faculty name: </td>
-		<td><input type="text" name="faculty_name"></td>
+		<td><input type="text" name="faculty_name"> <input type="submit" value="Insert" name="form_faculty_insert"></td>
+		
 	</tr>
 	
-	<tr>
+	<tr id="abcd">
 		<td></td>
-		<td><input type="submit" value="Insert" name="form_faculty_insert"></td>
+		<!-- <td><input type="submit" value="Insert" name="form_faculty_insert"></td> -->
 	</tr>
 	
 </table>

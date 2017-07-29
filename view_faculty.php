@@ -3,7 +3,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Data Faculty Page</title>
+	<title>Faculty Page</title>
+	<link rel="stylesheet" type="text/css" href="css/style_view_depertment.css">
 	
 	<script>
 		function confirm_delete() {
@@ -15,7 +16,7 @@
 </head>
 <body>
 <center>
-<h2>View All Faculty Table</h2>
+<h2>Faculty Table</h2>
 
 <br>
 
@@ -48,9 +49,12 @@
 			{
 ?>
 			<tr>
-
+			<div class="abc">
+				
+			</div>
 			<td><?php echo $row['ROWNUM']; ?></td>
 			<td><?php echo $row['FAC_NAME']; ?></td>
+			
 			
 			<td>
 
