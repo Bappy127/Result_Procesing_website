@@ -27,17 +27,23 @@
 
 
 <!DOCTYPE html>
+
 <html>
-<head>
-	<title>Home</title>
-</head>
-<body>
-<CENTER>
-<h2><?php echo "$message"."<br>"."<br>"; ?></h2>
+	<head>
+		<meta charset="utf-8">
+		<title>Home Page</title>
+		<link rel="stylesheet" type="text/css" href="css/style_home.css">
+	</head>
 
-<button onclick="window.location.href='view_faculty.php'">View All faculties</button>
-<button onclick="window.location.href='insert_faculty.php'">Insert Faculty</button>
-
-</CENTER>
-</body>
+	<body>
+		<div class="abc">
+			<h1><?php echo "$message"."<br>"."<br>"; ?></h1>
+		</div>
+	
+		<div class="button">
+			<button id="button1" onclick="window.location.href='view_faculty.php'">View All faculties</button>
+			<button id="button2" onclick="window.location.href='insert_faculty.php'">Insert Faculty</button>
+		</div>
+		
+	</body>
 </html>
