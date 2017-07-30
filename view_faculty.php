@@ -74,7 +74,7 @@
 </table>
 
 <br>
-<button onclick="window.location.href='home.php'">Back 2 main page</button>
+<button onclick="window.location.href='home.php'">Back to Main Page</button>
 </center>
 
 </body>

@@ -88,7 +88,7 @@ if(isset($_POST['form_faculty_insert']))
 
 <br>
 <button onclick="window.location.href='view_faculty.php'"> Back </button>
-<button onclick="window.location.href='home.php'">Back 2 main page</button>
+<button onclick="window.location.href='home.php'">Back to Main Page</button>
 
 </center>
 </body>

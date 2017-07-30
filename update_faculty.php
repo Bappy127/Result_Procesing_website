@@ -77,6 +77,7 @@ if(isset($_POST['form_faculty_update']))
 <head>
 	<meta charset="UTF-8">
 	<title>Procedure Page</title>
+	<link rel="stylesheet" type="text/css" href="css/style_update_faculty.css">
 </head>
 <body>
 
@@ -88,19 +89,19 @@ if(isset($_POST['form_faculty_update']))
 <form action="" method="POST">
 <table>
 	
-	<tr>
+	<tr id="ab">
 		<td>Faculty old name: </td>
 		<td><input type="text" name="faculty_old_name" value="<?php echo $f_name; ?>"></td>
 	</tr>
 
-	<tr>
+	<tr id="abc">
 		<td>Faculty new name: </td>
-		<td><input type="text" name="faculty_new_name"></td>
+		<td><input type="text" name="faculty_new_name"> <input type="submit" value="Update" name="form_faculty_update"></td>
 	</tr>
 	
-	<tr>
+	<tr id="abcd">
 		<td></td>
-		<td><input type="submit" value="Update" name="form_faculty_update"></td>
+		<td><!-- <input type="submit" value="Update" name="form_faculty_update"> --></td>
 	</tr>
 	
 </table>
@@ -113,11 +114,16 @@ if(isset($_POST['form_faculty_update']))
 </center>
 <br>
 </form>
-<form align="center" name="form_back" method="post" action="home.php">
+<!-- <form align="center" name="form_back" method="post" action="home.php">
   
   <input name="submit2" type="submit" id="submit2" value="Back to main menu">
   
-</form>
+</form> -->
+<center>
+	<button onclick="window.location.href='view_faculty.php'"> Back </button>
+	<button onclick="window.location.href='home.php'">Back to Main Page</button>
+</center>
+
 
 </body>
 </html>
