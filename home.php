@@ -32,10 +32,16 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Home Page</title>
+		
 		<link rel="stylesheet" type="text/css" href="css/style_home.css">
 	</head>
 
 	<body>
+		
+		<?php
+			include_once 'logout.php';
+		?>
+
 		<div class="abc">
 			<h1><?php echo "$message"."<br>"."<br>"; ?></h1>
 		</div>

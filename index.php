@@ -56,7 +56,10 @@ if(isset($_POST['form_login']))
   <head>
     <meta charset="utf-8">
     <title>Login Page</title>
+    
+
     <link href="css/style_login_page.css" rel="stylesheet" type="text/css"/>
+    
   </head>
 
   <body>
